@@ -6,6 +6,20 @@ Animated AlertDialog With Rounded Corners
 
 
 
+
+### Alert Dialog Style
+First you need add this code to your project ```themes.xml``` file
+```     <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog.Rounded" parent="">
+        <item name="cornerSize">10dp</item>
+    </style>
+ ```
+
+
+
 ### For Activity
 Follow this step to add animated alert dialog
 
@@ -29,5 +43,7 @@ Follow this step to add animated alert dialog
 
     }
 ```   
-2. After that, paste in your activity [like this](AlertDialog.java) 
-    
+2. After that, paste in your activity [like this](Example/MainActivity.java)
+3. Now you can call alert dialog using this code
+```launchAlertDialog();```
+
