@@ -47,3 +47,32 @@ Follow this step to add animated alert dialog
 3. Now you can call alert dialog using this code
 ```launchAlertDialog();```
 
+
+
+### For Fragment
+Follow this step to add animated alert dialog
+
+1. Copy this code
+```private void launchAlertDialog() {
+        new MaterialAlertDialogBuilder(getcontext(), R.style.MaterialAlertDialog_Rounded)
+                .setTitle("Quity update required")
+                .setMessage("Quity recommends that you to update to latest version")
+                .setPositiveButton("Update", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int i) {
+                        try {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.anuhas.quity")));
+                        }catch (Exception e){
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.anuhas.quity")));
+                        }
+                    }
+                })
+                .setCancelable(false)
+                .show();
+
+    }
+```   
+2. After that, paste in your activity [like this](Example/MainActivity.java)
+3. Now you can call alert dialog using this code
+```launchAlertDialog();```
+
