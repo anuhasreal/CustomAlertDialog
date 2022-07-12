@@ -1,5 +1,5 @@
 private void launchAlertDialog() {
-        new MaterialAlertDialogBuilder(Project.this, R.style.MaterialAlertDialog_Rounded)
+        new MaterialAlertDialogBuilder(AlertDialog.this, R.style.MaterialAlertDialog_Rounded)
                 .setTitle("Quity update required")
                 .setMessage("Quity recommends that you to update to latest version")
                 .setPositiveButton("Update", new DialogInterface.OnClickListener() {
