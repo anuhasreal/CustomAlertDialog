@@ -72,7 +72,6 @@ Follow this step to add animated alert dialog
 
     }
 ```   
-2. After that, paste in your activity [like this](Example/MainActivity.java)
+2. After that, paste in your activity [like this](Example/Fragment.java)
 3. Now you can call alert dialog using this code
 ```launchAlertDialog();```
-
