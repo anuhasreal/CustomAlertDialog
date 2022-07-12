@@ -25,7 +25,8 @@ First you need add this code to your project ```themes.xml``` file
 Follow this step to add animated alert dialog
 
 1. Copy this code
-```private void launchAlertDialog() {
+```
+private void launchAlertDialog() {
         new MaterialAlertDialogBuilder(AlertDialog.this, R.style.MaterialAlertDialog_Rounded)
                 .setTitle("Quity update required")
                 .setMessage("Quity recommends that you to update to latest version")
@@ -54,7 +55,8 @@ Follow this step to add animated alert dialog
 Follow this step to add animated alert dialog
 
 1. Copy this code
-```private void launchAlertDialog() {
+```
+private void launchAlertDialog() {
         new MaterialAlertDialogBuilder(getcontext(), R.style.MaterialAlertDialog_Rounded)
                 .setTitle("Quity update required")
                 .setMessage("Quity recommends that you to update to latest version")
