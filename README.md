@@ -9,7 +9,8 @@ Animated AlertDialog With Rounded Corners
 
 ### Alert Dialog Style
 First you need add this code to your project ```themes.xml``` file
-``` <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+``` 
+    <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded</item>
     </style>
 
