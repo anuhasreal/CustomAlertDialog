@@ -8,14 +8,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-
-import com.anuhas.danumgula.Class.Grade10;
-import com.anuhas.danumgula.Class.Grade11;
-import com.anuhas.danumgula.Class.Grade9;
-import com.anuhas.danumgula.R;
-import com.anuhas.danumgula.Class.AL_Activity;
-import com.anuhas.danumgula.Class.OL_activity;
-import com.anuhas.danumgula.Class.School_ship;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class MainActivity extends AppCompatActivity {
